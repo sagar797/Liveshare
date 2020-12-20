@@ -19,7 +19,7 @@ function handleTool(tool){
         if(activeTool == "eraser"){
             eraserOptions.classList.add("show");
         } else {
-            ctx.strokeStyle = "white"; //white for eraser
+            ctx.strokeStyle = "lightgrey"; //white for eraser
             activeTool = "eraser";
             pencilOptions.classList.remove("show");
         }
