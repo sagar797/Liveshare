@@ -31,6 +31,8 @@ function handleTool(tool){
         undoLast();
     } else if(tool == "redo"){
         redoLast();
+    } else if (tool == "download") {
+        downloadBoard();
     }
 }
 

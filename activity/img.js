@@ -25,5 +25,9 @@ function downloadBoard(){
     //3. convert board to Url
     let url = board.toDataURL("image/") 
     //4. set as href of anchor
+    a.href = url;
     //5. click the anchor 
+    a.click();
+    //  reload behaviour does not get triggerd
+    a.remove();
 }
