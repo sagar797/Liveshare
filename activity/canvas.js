@@ -69,9 +69,9 @@ function undoLast(){
     if(undoArr.length>0){
         //1. pop the last point 
         // undoPop();
-        // //2. clear the canvas 
+        // 2. clear the canvas 
         // ctx.clearRect(0,0,board.width,board.height);
-        // //3. redraw 
+        // 3. redraw 
         // redraw();
 
         //sir method 

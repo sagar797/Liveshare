@@ -1,4 +1,3 @@
-
 socket.on("rColorChange",function(color){
     ctx.strokeStyle = color;
 });
