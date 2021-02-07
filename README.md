@@ -1,7 +1,9 @@
 # Liveshare
 
+![image](https://user-images.githubusercontent.com/40164098/105723312-a6787f00-5f4c-11eb-9e49-ccccc843cb43.png)
+
 1. open in browser 
-http://127.0.0.1:5500/activity/index.html
+https://liveopenshare.herokuapp.com/
 
 2. in server -> create npm init -y 
  and install express.js
